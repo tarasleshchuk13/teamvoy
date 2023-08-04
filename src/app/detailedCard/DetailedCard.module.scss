@@ -1,0 +1,62 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #fff;
+    width: 220px;
+    padding: 10px 10px 15px;
+    border: 2px solid;
+}
+
+.img, {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.name {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.name::first-letter {
+    text-transform: capitalize;
+}
+
+.characteristicList {
+    margin-top: 10px;
+    border-top: 1px solid;
+}
+
+.characteristic {
+    display: flex;
+    border: 1px solid;
+    border-top: none;
+
+    .name {
+        width: 70%;
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 12px;
+    }
+
+    .value {
+        width: 30%;
+        font-size: 12px;
+        padding: 5px 10px;
+        border-left: 1px solid;
+    }
+}
